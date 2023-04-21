@@ -1,0 +1,155 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0B2447;
+}
+
+body {
+    background-color: #F6F1F1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-size: 30%;
+}
+
+.logo {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav {
+    background-color: #146C94;
+}
+
+#ulNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.liFormulario {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    justify-content: space-around;
+    width: 50%;
+}
+
+a {
+    color: #F6F1F1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0B2447;
+}
+
+.contenido {
+    text-align: justify;
+    padding: 25px;
+    margin: 10px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#divContenidoIndex {
+    text-align: justify;
+    padding: 25px;
+    margin: 10px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contenidoIndex {
+    padding: 20px;
+}
+
+#contenidoIndex2{
+    font-size: 25px;
+}
+
+#tiendaInformatica {
+    width: 35%;
+    border: 4px solid #146C94;
+    border-radius: 5px;
+}
+
+#tituloFormulario {
+    text-align: center;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-left: auto;
+}
+
+input {
+    margin-left: auto;
+}
+
+textarea {
+    margin-left: auto;
+    resize: vertical;
+}
+
+#btn_enviar {
+    border: none;
+    border-radius: 10px;
+    background-color: #19A7CE;
+    width: 130px;
+    height: 45px;
+    margin-left: 25px;
+    font-size: 20px;
+    align-self: center;
+}
+
+#mensajeEnviado {
+    color: #0B2447;
+    font-size: larger;
+}
+
+footer {
+    text-align: center;
+    background-color: #146C94;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+#divFooter {
+    color: #F6F1F1;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#logoContacto {
+    height: 45px;
+    padding: 20px;
+}
